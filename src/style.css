@@ -93,10 +93,10 @@ div:nth-child(3) {
 }
 
 .content-container input {
-  width: 100%;
+  width: 96%;
   height: 9vh;
-  font-size: 1.1em;
-  padding-left: 19px;
+  padding-left: 5%;
+  font-size: 1.2em;
 }
 
 .started {
