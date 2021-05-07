@@ -24,9 +24,23 @@ html {
     center/cover;
 }
 
+.main-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  box-shadow: inset 0px 80px 100px #000, inset 0px -80px 100px #000;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
 
 .lg-btn {
@@ -59,6 +73,8 @@ html {
   text-align: center;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .content-sub-text {
