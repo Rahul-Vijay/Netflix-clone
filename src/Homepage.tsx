@@ -8,13 +8,9 @@ const HomePage = () => {
       {/* content div */}
       <div className="content-container">
         <div>
-          <div style={{ fontSize: "2em" }}>
-            Unlimited movies, TV shows and more.
-          </div>
-          <div className="content-sub-text">
-            Watch anywhere. Cancel anytime.
-          </div>
-          <div className="content-sub-text">
+          <div>Unlimited movies, TV shows and more.</div>
+          <div>Watch anywhere. Cancel anytime.</div>
+          <div>
             Ready to watch? Enter your email to create or restart your
             membership.
           </div>

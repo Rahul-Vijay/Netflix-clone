@@ -20,8 +20,7 @@ html {
   height: 66vh;
   background-color: brown;
   color: white;
-  background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center
-    center/cover;
+  background: url(../images//netflix-bg.jpeg) no-repeat center center/cover;
 }
 
 .main-container::after {
@@ -77,14 +76,21 @@ html {
   z-index: 2;
 }
 
-.content-sub-text {
-  font-size: 1.2em;
+.content-container > div > :first-child {
+  font-size: 1.9em;
+  font-weight: 600;
+}
+
+.content-container > div > div:nth-child(2),
+div:nth-child(3) {
+  font-size: 1.19em;
   margin: 4% 12%;
 }
 
 .content-container input {
-  width: 96%;
+  width: 100%;
   height: 9vh;
+  font-size: 1.1em;
   padding-left: 19px;
 }
 
@@ -101,6 +107,8 @@ html {
   align-items: center;
 }
 
+/* For mobile landscape mode, tablets */
+
 @media only screen and (min-width: 480px) {
   .main-container {
     height: 90vh;
@@ -109,8 +117,19 @@ html {
   .content-container {
     justify-content: center;
   }
+
+  .content-container > div > :first-child {
+    font-size: 2.2em;
+    font-weight: 700;
+  }
+
+  .content-container > div > div:nth-child(2),
+  div:nth-child(3) {
+    font-size: 1.35em;
+  }
 }
 
+/* For laptops */
 @media only screen and (min-width: 768px) {
   .main-container {
     height: 85vh;
@@ -120,6 +139,7 @@ html {
   }
 }
 
+/* For bigger desktop screens */
 @media only screen and (min-width: 1024px) {
   .main-container {
     height: 85vh;
