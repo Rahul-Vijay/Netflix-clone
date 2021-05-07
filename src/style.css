@@ -42,6 +42,11 @@ html {
   z-index: 2;
 }
 
+.header > div > div > button:hover,
+.sub-content-email > button:hover {
+  cursor: pointer;
+}
+
 .lg-btn {
   background-color: black;
   color: white;
