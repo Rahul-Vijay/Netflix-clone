@@ -20,9 +20,8 @@ html {
   height: 66vh;
   background-color: brown;
   color: white;
-  background-image: url(../images/netflix-bg-2-mobile.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center
+    center/cover;
 }
 
 .header {
@@ -83,8 +82,6 @@ html {
 @media only screen and (min-width: 480px) {
   .main-container {
     height: 90vh;
-    background-size: cover;
-    background-image: url(../images/netflix-bg-2-ipad.jpg);
   }
 
   .content-container {
@@ -95,17 +92,11 @@ html {
 @media only screen and (min-width: 768px) {
   .main-container {
     height: 85vh;
-    background-size: cover;
-    background-image: url(../images/netflix-bg-2.jpg);
-    background-color: blue;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .main-container {
     height: 85vh;
-    background-size: cover;
-    background-image: url(../images/netflix-bg-2-laptop.jpg);
-    background-color: blue;
   }
 }
