@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "clear": "rm -rf ./.cache dist",
-    "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "format": "prettier \"src/**/*.{tsx,html}\" --write",
+    "lint": "eslint \"src/**/*.{tsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +29,8 @@
     "@babel/preset-react": "^7.13.13",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.2.0",
