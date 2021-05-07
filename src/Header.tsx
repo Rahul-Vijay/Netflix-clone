@@ -4,9 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       {/* netflix logo div */}
-      <div>
-        <h3>Netflix logo here</h3>
-      </div>
+      <div className="netflix-logo"></div>
       <div>
         {/* language btn div*/}
         <div style={{ display: "inline-block", marginRight: "20px" }}>
