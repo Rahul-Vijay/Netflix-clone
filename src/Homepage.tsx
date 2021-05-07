@@ -6,19 +6,27 @@ const HomePage = () => {
     <div className="main-container">
       <Header />
       {/* content div */}
-      <div>
-        <h2>Unlimited movies, TV shows and more.</h2>
-        <h4>Watch anywhere. Cancel anytime.</h4>
-        <h4>
-          Ready to watch? Enter your email to create or restart your membership.
-        </h4>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email Address"
-        />
-        <button>Get started</button>
+      <div className="content-container">
+        <div>
+          <div style={{ fontSize: "2em" }}>
+            Unlimited movies, TV shows and more.
+          </div>
+          <div className="content-sub-text">
+            Watch anywhere. Cancel anytime.
+          </div>
+          <div className="content-sub-text">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </div>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <br />
+          <button>Get started</button>
+        </div>
       </div>
     </div>
   );
