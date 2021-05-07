@@ -6,7 +6,6 @@ const App: FunctionComponent = () => {
   return (
     <React.StrictMode>
       <div>
-        <h3>React is setup !</h3>
         <HomePage />
       </div>
     </React.StrictMode>
