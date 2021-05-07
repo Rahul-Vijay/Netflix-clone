@@ -5,3 +5,5 @@
 ### Features
 
 - Static Homepage
+
+🚀 Node - `14.16.1`
