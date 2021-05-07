@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { render } from "react-dom";
 
-const App = () => {
+const App: FunctionComponent = () => {
   return (
     <React.StrictMode>
       <div>

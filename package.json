@@ -1,7 +1,7 @@
 {
   "name": "netflix-clone",
   "version": "1.0.0",
-  "description": "## Client side - React / Pure CSS",
+  "description": "Client side - React / Pure CSS",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
