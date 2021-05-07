@@ -30,6 +30,23 @@ html {
   justify-content: space-between;
 }
 
+.lg-btn {
+  background-color: black;
+  color: white;
+  font-size: 0.9em;
+  padding: 3% 5%;
+}
+
+.rd-btn {
+  background-color: red;
+  color: white;
+  padding: 3% 5%;
+  font-size: 1.1em;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
 .netflix-logo {
   width: 135px;
   height: 70px;
@@ -55,6 +72,12 @@ html {
   height: 9vh;
   padding-left: 19px;
   outline: none;
+}
+
+.started {
+  height: 50px;
+  width: 170px;
+  font-size: 1.1em;
 }
 
 @media only screen and (min-width: 480px) {

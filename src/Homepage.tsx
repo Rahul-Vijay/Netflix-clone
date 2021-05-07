@@ -25,7 +25,7 @@ const HomePage = () => {
             placeholder="Email Address"
           />
           <br />
-          <button>Get started</button>
+          <button className="rd-btn started">Get started</button>
         </div>
       </div>
     </div>

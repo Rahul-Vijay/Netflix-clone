@@ -5,14 +5,14 @@ const Header = () => {
     <div className="header">
       {/* netflix logo div */}
       <div className="netflix-logo"></div>
-      <div>
+      <div style={{ marginTop: "20px" }}>
         {/* language btn div*/}
         <div style={{ display: "inline-block", marginRight: "20px" }}>
-          <button> english </button>
+          <button className="lg-btn"> English </button>
         </div>
         {/* sign in btn div*/}
         <div style={{ display: "inline-block", marginRight: "20px" }}>
-          <button> sign in </button>
+          <button className="rd-btn"> Sign In </button>
         </div>
       </div>
     </div>
