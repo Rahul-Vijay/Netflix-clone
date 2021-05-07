@@ -18,14 +18,15 @@ const HomePage = () => {
             Ready to watch? Enter your email to create or restart your
             membership.
           </div>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Email Address"
-          />
-          <br />
-          <button className="rd-btn started">Get started</button>
+          <div className="sub-content-email">
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+            <button className="rd-btn started">Get started</button>
+          </div>
         </div>
       </div>
     </div>
