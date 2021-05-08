@@ -203,8 +203,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: start;
   }
 
   .row-wrapper-1 > div:nth-child(2) {
@@ -225,6 +225,17 @@ html {
   .row-wrapper-4 > div:nth-child(2) {
     background: url("https://occ-0-1492-1007.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf")
       no-repeat center center/cover;
+  }
+
+  .card-text-title {
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 3%;
+  }
+
+  .card-text-sub-title {
+    font-size: 1.5em;
+    margin-top: 3%;
   }
 }
 

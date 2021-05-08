@@ -5,18 +5,24 @@ const FlexContainers = () => {
     <div className="wrapper-flex">
       <div className="row-wrapper-1">
         <div>
-          <div>Enjoy on your TV.</div>
-          <div>
+          <div className="card-text-title">Enjoy on your TV.</div>
+          <div className="card-text-sub-title">
             Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
             players and more.
           </div>
         </div>
-        <div style={{ backgroundColor: "brown" }}></div>
+        <div
+          style={{
+            backgroundColor: "black",
+          }}
+        ></div>
       </div>
       <div className="row-wrapper-2">
         <div>
-          <div>Download your shows to watch online.</div>
-          <div>
+          <div className="card-text-title">
+            Download your shows to watch online.
+          </div>
+          <div className="card-text-sub-title">
             Save your favorites easily and always have something to watch
           </div>
         </div>
@@ -24,8 +30,8 @@ const FlexContainers = () => {
       </div>
       <div className="row-wrapper-3">
         <div>
-          <div>Watch everywhere.</div>
-          <div>
+          <div className="card-text-title">Watch everywhere.</div>
+          <div className="card-text-sub-title">
             Stream unlimited movies and TV shows on your phone, tablet, laptop,
             and TV.
           </div>
@@ -34,8 +40,8 @@ const FlexContainers = () => {
       </div>
       <div className="row-wrapper-4">
         <div>
-          <div>Create profiles for kids.</div>
-          <div>
+          <div className="card-text-title">Create profiles for kids.</div>
+          <div className="card-text-sub-title">
             Send kids on adventures with their favourite characters in a space
             made just for them—free with your membership.
           </div>
