@@ -5,9 +5,16 @@ const HomePage = () => {
   return (
     <div>
       <TopContent />
-      <div
-        style={{ width: "100%", height: "1.5vh", backgroundColor: "#222222" }}
-      ></div>
+      {/* <div className="wrapper">
+        <div className="text-container">
+          <div>Enjoy on your TV.</div>
+          <div>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </div>
+        </div>
+        <div></div>
+      </div> */}
     </div>
   );
 };

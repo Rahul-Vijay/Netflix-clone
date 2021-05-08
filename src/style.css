@@ -18,7 +18,7 @@ html {
 }
 
 .main-container {
-  height: 66vh;
+  height: 65vh;
   background-color: brown;
   color: white;
   background: url(../images/netflix-bg.jpeg) no-repeat center center/cover;
@@ -58,10 +58,11 @@ html {
 .rd-btn {
   background-color: red;
   color: white;
-  padding: 3% 5%;
+  padding: 2% 3%;
   font-size: 1.1em;
   width: 100px;
-  height: 40px;
+  height: 30px;
+  border-radius: 4px;
   border: none;
 }
 
@@ -80,6 +81,7 @@ html {
   align-items: center;
   position: relative;
   z-index: 2;
+  bottom: 12%;
 }
 
 .content-container > div > :first-child {
@@ -87,8 +89,8 @@ html {
   font-weight: 600;
 }
 
-.content-container > div > div:nth-child(2),
-div:nth-child(3) {
+.content-container div div:nth-child(2),
+.content-container div div:nth-child(3) {
   font-size: 1.19em;
   margin: 4% 12%;
 }
@@ -97,12 +99,12 @@ div:nth-child(3) {
   width: 96%;
   height: 9vh;
   padding-left: 5%;
-  font-size: 1.2em;
+  font-size: 0.8em;
 }
 
 .started {
-  height: 50px;
-  width: 170px;
+  height: 40px;
+  width: 150px;
   padding: 0;
   font-size: 1.1em;
 }
@@ -133,6 +135,10 @@ div:nth-child(3) {
   div:nth-child(3) {
     font-size: 1.35em;
   }
+
+  .started {
+    height: 60px;
+  }
 }
 
 /* For laptops */
@@ -140,6 +146,11 @@ div:nth-child(3) {
   .main-container {
     height: 85vh;
   }
+
+  .started {
+    height: 50px;
+  }
+
   .sub-content-email {
     flex-direction: row;
   }
