@@ -3,6 +3,7 @@ import React from "react";
 const FlexContainers = () => {
   return (
     <div className="wrapper-flex">
+      <div className="line-break"></div>
       <div className="row-wrapper-1">
         <div>
           <div className="card-text-title">Enjoy on your TV.</div>
@@ -17,6 +18,7 @@ const FlexContainers = () => {
           }}
         ></div>
       </div>
+      <div className="line-break"></div>
       <div className="row-wrapper-2">
         <div>
           <div className="card-text-title">
@@ -28,6 +30,7 @@ const FlexContainers = () => {
         </div>
         <div style={{ backgroundColor: "yellow" }}></div>
       </div>
+      <div className="line-break"></div>
       <div className="row-wrapper-3">
         <div>
           <div className="card-text-title">Watch everywhere.</div>
@@ -38,6 +41,7 @@ const FlexContainers = () => {
         </div>
         <div style={{ backgroundColor: "black" }}></div>
       </div>
+      <div className="line-break"></div>
       <div className="row-wrapper-4">
         <div>
           <div className="card-text-title">Create profiles for kids.</div>
@@ -48,6 +52,7 @@ const FlexContainers = () => {
         </div>
         <div style={{ backgroundColor: "turquoise" }}></div>
       </div>
+      <div className="line-break"></div>
     </div>
   );
 };
