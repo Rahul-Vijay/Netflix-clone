@@ -85,7 +85,7 @@ html {
 }
 
 .content-container > div > :first-child {
-  font-size: 1.9em;
+  font-size: 1.7em;
   font-weight: 600;
 }
 
@@ -132,7 +132,7 @@ html {
   }
 
   .content-container > div > div:nth-child(2),
-  div:nth-child(3) {
+  .content-container > div > div:nth-child(3) {
     font-size: 1.35em;
   }
 
@@ -153,6 +153,78 @@ html {
 
   .sub-content-email {
     flex-direction: row;
+  }
+
+  .wrapper-flex {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .row-wrapper-1,
+  .row-wrapper-3 {
+    height: 56vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+
+  .row-wrapper-2,
+  .row-wrapper-4 {
+    height: 56vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+
+  .row-wrapper-1 > div:nth-child(1),
+  .row-wrapper-1 > div:nth-child(2),
+  .row-wrapper-2 > div:nth-child(1),
+  .row-wrapper-2 > div:nth-child(2),
+  .row-wrapper-3 > div:nth-child(1),
+  .row-wrapper-3 > div:nth-child(2),
+  .row-wrapper-4 > div:nth-child(1),
+  .row-wrapper-4 > div:nth-child(2) {
+    height: 56vh;
+    width: 50%;
+    padding: 2% 6%;
+  }
+
+  .row-wrapper-1 > div:nth-child(1),
+  .row-wrapper-2 > div:nth-child(1),
+  .row-wrapper-3 > div:nth-child(1),
+  .row-wrapper-4 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .row-wrapper-1 > div:nth-child(2) {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png")
+      no-repeat center center/cover;
+  }
+
+  .row-wrapper-2 > div:nth-child(2) {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg")
+      no-repeat center center/cover;
+  }
+
+  .row-wrapper-3 > div:nth-child(2) {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png")
+      no-repeat center center/cover;
+  }
+
+  .row-wrapper-4 > div:nth-child(2) {
+    background: url("https://occ-0-1492-1007.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf")
+      no-repeat center center/cover;
   }
 }
 

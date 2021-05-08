@@ -1,10 +1,12 @@
 import React from "react";
+import FlexContainers from "./Flex-Containers";
 import TopContent from "./Top-Content";
 
 const HomePage = () => {
   return (
     <div>
       <TopContent />
+      <FlexContainers />
       {/* <div className="wrapper">
         <div className="text-container">
           <div>Enjoy on your TV.</div>
