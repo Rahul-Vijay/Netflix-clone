@@ -196,6 +196,40 @@ html {
     no-repeat center center/cover;
 }
 
+.faq-container {
+  height: auto;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-sub-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.question-container > div:nth-child(1) {
+  background-color: #303030;
+  height: 6vh;
+  padding: 3% 6%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.question-container > div:nth-child(2) {
+  background-color: #303030;
+  height: auto;
+  padding: 3% 4%;
+  margin-top: 0.2%;
+  /* display: none; */
+}
+
 /* For mobile landscape mode, tablets */
 
 @media only screen and (min-width: 480px) {

@@ -1,4 +1,5 @@
 import React from "react";
+import FaqPage from "./Faq-page";
 import FlexContainers from "./Flex-Containers";
 import TopContent from "./Top-Content";
 
@@ -7,16 +8,7 @@ const HomePage = () => {
     <div>
       <TopContent />
       <FlexContainers />
-      {/* <div className="wrapper">
-        <div className="text-container">
-          <div>Enjoy on your TV.</div>
-          <div>
-            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
-            players and more.
-          </div>
-        </div>
-        <div></div>
-      </div> */}
+      <FaqPage />
     </div>
   );
 };
