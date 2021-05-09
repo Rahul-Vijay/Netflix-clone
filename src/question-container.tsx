@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from "react";
 
 interface IProps {
-  ques: string;
-  ans: string;
+  ques: String;
+  ans: String;
 }
 
 const QuestionContainer: FunctionComponent<IProps> = (props: IProps) => {
