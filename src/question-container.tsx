@@ -9,32 +9,41 @@ interface IProps {
 const QuestionContainer: FunctionComponent<IProps> = (props: IProps) => {
   const { ques, ans, id } = props;
   const idString = `${id}-ans`;
-  const [display, setDisplay] = useState("none");
+
+  const setRestToNone = () => {
+    const nList = document.querySelectorAll(
+      ".question-container > div:nth-child(2)"
+    );
+    if (nList.length > 0) {
+      for (let z = 0; z < nList.length; z++) {
+        if (nList[z].id !== idString) {
+          document.getElementById(nList[z].id)!.style.display = "none";
+        } else document.getElementById(nList[z].id)!.style.display = "block";
+      }
+    }
+  };
 
   return (
     <div
       className="question-container"
       onClick={() => {
-        if (display === "block") setDisplay("none");
-        else setDisplay("block");
+        setRestToNone();
       }}
     >
       <div>
         <div> {ques} </div>
         <div>
-          <span
+          {/* <span
             style={
               display === "block" ? { display: "none" } : { display: "block" }
             }
           >
             +
           </span>{" "}
-          <span style={{ display }}>x</span>
+          <span style={{ display }}>x</span> */}
         </div>
       </div>
-      <div id={idString} style={{ display }}>
-        {ans}
-      </div>
+      <div id={idString}>{ans}</div>
     </div>
   );
 };
