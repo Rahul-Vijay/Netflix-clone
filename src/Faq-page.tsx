@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { qArray, aArray } from "./data";
 import QuestionContainer from "./question-container";
 
@@ -11,7 +11,7 @@ const FaqPage = () => {
       </div>
       <div className="faq-sub-container">
         {qArray.map((q, i) => {
-          return <QuestionContainer ques={q} ans={aArray[i]} />;
+          return <QuestionContainer ques={q} ans={aArray[i]} id={i} />;
         })}
       </div>
     </div>
