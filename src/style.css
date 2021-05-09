@@ -234,7 +234,7 @@ html {
   height: auto;
   padding: 3% 4%;
   margin-top: 0.2%;
-  display: none;
+  /* display: none; */
 }
 
 /* For mobile landscape mode, tablets */
