@@ -14,8 +14,7 @@ const QuestionContainer: FunctionComponent<IProps> = (props: IProps) => {
   return (
     <div
       className="question-container"
-      onClick={(e) => {
-        console.log(e.target);
+      onClick={() => {
         if (display === "block") setDisplay("none");
         else setDisplay("block");
       }}
