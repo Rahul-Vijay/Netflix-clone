@@ -23,7 +23,14 @@ const QuestionContainer: FunctionComponent<IProps> = (props: IProps) => {
       <div>
         <div> {ques} </div>
         <div>
-          <span>+</span> <span>x</span>
+          <span
+            style={
+              display === "block" ? { display: "none" } : { display: "block" }
+            }
+          >
+            +
+          </span>{" "}
+          <span style={{ display }}>x</span>
         </div>
       </div>
       <div id={idString} style={{ display }}>
