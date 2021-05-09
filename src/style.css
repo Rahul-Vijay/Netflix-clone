@@ -276,12 +276,12 @@ html {
   text-align: center;
 }
 
-ul {
+.footer-links > ul {
   list-style-type: none;
 }
 
-li {
-  padding-top: 7%;
+.footer-links > ul > li {
+  padding-top: 12%;
 }
 
 .footer {
@@ -300,9 +300,17 @@ li {
   font-size: 1.03em;
 }
 
+.footer > div:nth-child(2) {
+  margin-bottom: 7%;
+}
+
 .footer > div:nth-child(2),
 .footer > div:nth-child(4) {
   font-size: 0.8em;
+}
+
+.footer > div:nth-child(4) {
+  margin-top: 4%;
 }
 
 /* For mobile landscape mode, tablets */

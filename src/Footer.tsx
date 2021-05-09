@@ -12,6 +12,9 @@ const Footer = () => {
             <li>Investor Relation</li>
             <li>Ways to Watch</li>
             <li>Privacy</li>
+            <li>Corporate Information</li>
+            <li>Speed Test</li>
+            <li>Netflix Originals</li>
           </ul>
         </div>
         <div style={{ display: "inline-block", marginRight: "20px" }}>
