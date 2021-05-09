@@ -14,6 +14,20 @@ const FaqPage = () => {
           return <QuestionContainer key={q} ques={q} ans={aArray[i]} id={i} />;
         })}
       </div>
+      <div className="faq-sub-parent">
+        <div style={{ margin: "2% 5%" }}>
+          Ready to watch? Enter your email to create or restart your membership.
+        </div>
+        <div className="faq-sub">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <button className="rd-btn-2">Get started</button>
+        </div>
+      </div>
     </div>
   );
 };

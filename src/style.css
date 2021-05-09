@@ -241,6 +241,41 @@ html {
   display: none;
 }
 
+.faq-sub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  margin: 5% 1% 8% 1%;
+  gap: 10px;
+  align-items: center;
+}
+
+.faq-sub input {
+  width: 96%;
+  height: 9vh;
+  padding-left: 5%;
+  font-size: 0.8em;
+}
+
+.rd-btn-2 {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  width: 150px;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.faq-sub-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 /* For mobile landscape mode, tablets */
 
 @media only screen and (min-width: 480px) {
@@ -269,6 +304,14 @@ html {
   .faq-sub-container {
     width: 80%;
   }
+
+  .rd-btn-2 {
+    height: 60px;
+  }
+
+  .faq-sub input {
+    width: 70%;
+  }
 }
 
 /* For laptops / iPads */
@@ -283,6 +326,16 @@ html {
 
   .sub-content-email {
     flex-direction: row;
+  }
+
+  .faq-sub-parent > div:nth-child(1) {
+    font-size: 1.2em;
+  }
+
+  .faq-sub input {
+    width: 90%;
+    padding-left: 7%;
+    font-size: 1em;
   }
 }
 
@@ -369,5 +422,30 @@ html {
   .question-container > div:nth-child(1) {
     padding: 2% 4%;
     height: 8vh;
+  }
+
+  .faq-sub {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin: 1% 1% 8% 1%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .faq-sub-parent {
+    width: 90%;
+  }
+
+  .faq-sub input {
+    width: 80%;
+  }
+
+  .rd-btn-2 {
+    height: 50px;
+    width: 150px;
+    padding: 0;
+    font-size: 1em;
   }
 }
