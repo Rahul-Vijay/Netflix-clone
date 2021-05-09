@@ -8,7 +8,9 @@ const FaqPage = () => {
         <div className="question-container">
           <div>
             <div>What is Netflix</div>
-            <div>+</div>
+            <div>
+              <span>+</span> <span>x</span>
+            </div>
           </div>
           <div>
             Netflix is a streaming service that offers a wide variety of
@@ -24,7 +26,9 @@ const FaqPage = () => {
         <div className="question-container">
           <div>
             <div>How much does Netflix cost?</div>
-            <div>+</div>
+            <div>
+              <span>+</span> <span>x</span>
+            </div>
           </div>
           <div>
             Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
@@ -36,7 +40,9 @@ const FaqPage = () => {
         <div className="question-container">
           <div>
             <div>Where can I watch</div>
-            <div>+</div>
+            <div>
+              <span>+</span> <span>x</span>
+            </div>
           </div>
           <div>
             Watch anywhere, anytime, on an unlimited number of devices. Sign in
@@ -55,7 +61,9 @@ const FaqPage = () => {
         <div className="question-container">
           <div>
             <div>How do I cancel?</div>
-            <div>+</div>
+            <div>
+              <span>+</span> <span>x</span>
+            </div>
           </div>
           <div>
             Netflix is flexible. There are no annoying contracts and no
@@ -68,7 +76,9 @@ const FaqPage = () => {
         <div className="question-container">
           <div>
             <div>What can I watch on Netflix?</div>
-            <div>+</div>
+            <div>
+              <span>+</span> <span>x</span>
+            </div>
           </div>
           <div>
             Netflix has an extensive library of feature films, documentaries, TV
@@ -80,7 +90,9 @@ const FaqPage = () => {
         <div className="question-container">
           <div>
             <div>Is Netflix good for kids?</div>
-            <div>+</div>
+            <div>
+              <span>+</span> <span>x</span>
+            </div>
           </div>
           <div>
             The Netflix Kids experience is included in your membership to give
