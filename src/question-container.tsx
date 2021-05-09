@@ -1,8 +1,8 @@
 import React, { FunctionComponent, useState } from "react";
 
 interface IProps {
-  ques: String;
-  ans: String;
+  ques: string;
+  ans: string;
   id: Number;
 }
 
@@ -14,7 +14,8 @@ const QuestionContainer: FunctionComponent<IProps> = (props: IProps) => {
   return (
     <div
       className="question-container"
-      onClick={() => {
+      onClick={(e) => {
+        console.log(e.target);
         if (display === "block") setDisplay("none");
         else setDisplay("block");
       }}

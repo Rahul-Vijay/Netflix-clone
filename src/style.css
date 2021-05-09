@@ -229,6 +229,10 @@ html {
   justify-content: space-between;
 }
 
+.question-container > div:nth-child(1):hover {
+  cursor: pointer;
+}
+
 .question-container > div:nth-child(2) {
   background-color: #303030;
   height: auto;

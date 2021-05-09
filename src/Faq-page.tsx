@@ -11,7 +11,7 @@ const FaqPage = () => {
       </div>
       <div className="faq-sub-container">
         {qArray.map((q, i) => {
-          return <QuestionContainer ques={q} ans={aArray[i]} id={i} />;
+          return <QuestionContainer key={q} ques={q} ans={aArray[i]} id={i} />;
         })}
       </div>
     </div>
