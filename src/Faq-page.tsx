@@ -3,7 +3,10 @@ import React from "react";
 const FaqPage = () => {
   return (
     <div className="faq-container">
-      <div> Frequently Asked Questions </div>
+      <div style={{ fontSize: "1.5em", marginBottom: "4%", fontWeight: 600 }}>
+        {" "}
+        Frequently Asked Questions{" "}
+      </div>
       <div className="faq-sub-container">
         <div className="question-container">
           <div>

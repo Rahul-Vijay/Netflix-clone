@@ -203,6 +203,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10%;
 }
 
 .faq-sub-container {
@@ -210,13 +211,19 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  font-size: 1.1em;
+  margin-bottom: 4%;
+}
+
+.question-container {
+  margin-top: 2%;
 }
 
 .question-container > div:nth-child(1) {
   background-color: #303030;
   height: 6vh;
   padding: 3% 6%;
-  margin-top: 2%;
+  /* margin-top: 3%; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -227,7 +234,7 @@ html {
   height: auto;
   padding: 3% 4%;
   margin-top: 0.2%;
-  /* display: none; */
+  display: none;
 }
 
 /* For mobile landscape mode, tablets */

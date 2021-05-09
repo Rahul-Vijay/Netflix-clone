@@ -9,6 +9,7 @@ const HomePage = () => {
       <TopContent />
       <FlexContainers />
       <FaqPage />
+      <div className="line-break"></div>
     </div>
   );
 };
