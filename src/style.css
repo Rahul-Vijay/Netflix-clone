@@ -261,9 +261,13 @@ html {
   .started {
     height: 60px;
   }
+
+  .faq-sub-container {
+    width: 80%;
+  }
 }
 
-/* For laptops */
+/* For laptops / iPads */
 @media only screen and (min-width: 768px) {
   .main-container {
     height: 85vh;
@@ -347,5 +351,19 @@ html {
   .card-text-sub-title {
     font-size: 1.5em;
     margin-top: 3%;
+  }
+
+  .faq-container {
+    padding-top: 4%;
+    font-size: 1.3em;
+  }
+
+  .faq-sub-container {
+    width: 50%;
+  }
+
+  .question-container > div:nth-child(1) {
+    padding: 2% 4%;
+    height: 8vh;
   }
 }
